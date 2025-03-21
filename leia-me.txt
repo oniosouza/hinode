@@ -1,0 +1,8 @@
+Olá Consultor Hinode!
+
+para usar o arquivo corretamente siga essas etapas:
+
+No arquivo index.html, ma linha 158 do arquivo, edite o 111111 e troque pelo seu ID
+Não altere nenhum elemento que corresponda a marca Hinode
+Hospede todos arquivos e pastas contidos nesse zip em seu servidor para publicar corretamente a página
+inclua suas tags de google GA4 e pixel do facebook de acordo com sua estratégia.

@@ -1,0 +1,72 @@
+html, body {
+  border: 0px;
+  margin: 0px;
+  font-family: 'Codec-Warm-Regular', 'Montserrat', sans-serif;
+  color: #3a334f;
+  background-color: #ffffff;
+  font-size: 16px;
+  line-height: 30px;
+  scroll-behavior: smooth;
+}
+ul, ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+h1 { font-weight: bold; font-size: 3.5em;}
+.bg-yellow {
+  background-color: #fed832;
+}
+.bg-violet {
+  background-color: #751cec;
+}
+.bg-blue {
+  background-color: #3a334f;
+}
+.bg-offwhite {
+  background-color: #f9f9f0;
+}
+.bg-sandy {
+  background-color: #e2d6bc;
+}
+.logo { text-align: center; border-bottom: 1px solid #e2d6bc;}
+.navbar-brand { display: none;}
+
+.logoEmpireLegacy {
+	max-width: 500px;
+}
+
+#bgEmpire {
+  background: url("../img/empire-legacy-3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+	  background-position: center;
+}
+
+a.btn-lilas:link { background-color: #751cec; color: #ffffff; letter-spacing: 2px; text-transform: uppercase; padding: 1rem;  font-size: 1rem; display: block;}
+a.btn-lilas:hover { background-color: #3a334f;}
+a.btn-lilas:visited, a.bt-lilas:active { color: #ffffff;}
+
+.prod-mobile { display: none;}
+
+#main .card { border: none;
+}
+#main .card-header { background-color: #f9f9f0;}
+#main button { text-decoration: none; color: #3a334f;}
+
+.mobileEmpire { display: none;}
+
+@media (max-width: 960px) {
+	h1 { font-weight: bold; font-size: 1.5em;}
+	.nossasRedes span { display: block;}
+	.navbar-brand { display: block;}
+	.logo { display: none;}
+	.prod-desk { display: none;}
+	.prod-mobile { display: block;}
+	#bgEmpire { height: 300px;}
+	}
+@media (max-width: 576px) {
+		.mobileEmpire { display: block;}
+	.desktopEmpire { display: none;}
+	.desktopEmpire { display: none;}
+}
